@@ -165,4 +165,72 @@ header#main-header {
   align-items: center;
 }
 
+.productsList {
+  max-width: 700px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px;
+}
+.productsList article {
+  background-color: #fff;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.productsList article p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+.productsList article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background-color: none;
+  margin-top: 10px;
+  color: #da552f;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+.productsList article a:hover {
+  background-color: #da552f;
+  color: #fff;
+  transition: all 0.5s;
+}
+.productsList .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.productsList .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #fafafa;
+  color: #da552f;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+.productsList .actions button:hover {
+  color: #fff;
+  background-color: #da552f;
+  transition: all 0.5s;
+}
+.productsList .actions button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
 /*# sourceMappingURL=index.css.map */
