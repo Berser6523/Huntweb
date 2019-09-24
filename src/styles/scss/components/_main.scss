@@ -58,12 +58,15 @@
             &:hover{
                 color: #fff;
                 background-color: #da552f;
-                transition: all .5s;
+                transition: all .7s;
             }
 
             &:disabled{
                 opacity: 0.5;
                 cursor: default;
+                &:hover{
+                    opacity: .5;
+                }
             }
         }
     }

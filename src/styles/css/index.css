@@ -226,11 +226,14 @@ header#main-header {
 .productsList .actions button:hover {
   color: #fff;
   background-color: #da552f;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 .productsList .actions button:disabled {
   opacity: 0.5;
   cursor: default;
+}
+.productsList .actions button:disabled:hover {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=index.css.map */
