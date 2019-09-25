@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => (
-    <header id="main-header">JsHunt</header>
+    <header id="main-header"><a href="/">JsHunt</a></header>
 );
 
 
